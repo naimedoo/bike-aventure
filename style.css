@@ -4,7 +4,7 @@ html {
 body  {
     margin: 0;
     font-family: 'lato', 'sans-serif';
-    background-color: blanchedalmond;
+    background-color: white;
 }
 .container-fluid {
     background-color: rgb(187, 187, 15);
@@ -91,14 +91,29 @@ h3 {
     padding-top:5rem;
     text-transform: uppercase;
 }
+
 .titreAbout  {
     font-size: 2rem;
     border: 2px solid black;
     text-align: center;
     background-color: beige;
     margin-top: 10rem;
+    border-radius: 50% 10% / 10% 40%;
     
 }
 .paragraphe  {
     padding-bottom: 5rem;
+}
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.sousTitreEquipes  {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.NosEquipes,ul, li {
+    font-size: 1.9rem;
 }
