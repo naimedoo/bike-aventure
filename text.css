@@ -1,0 +1,85 @@
+html  {
+    font-size: 10px;
+}
+body  {
+    background-color:white;
+}
+
+/*section equipe */
+
+#equipes  {
+    height: 10rem;
+    width: 100%;
+}
+  #equipes h3  {
+     text-align: center;
+     font-size: 5.5rem;
+     padding-top: 3rem;
+     background-image: linear-gradient(to right, #373737, #c0b283);
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     margin-bottom: 0;
+     text-transform: uppercase;
+ }
+
+ #equipes p {
+     text-align: center;
+     font-size: 1.8rem;
+     padding-top: 1.2rem;
+     font-weight: 700;
+ }
+
+.card-body  {
+    
+    text-align:center;
+    
+}
+.card  {
+    margin-top: 10rem;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+.card img  {
+    width: 100%;
+    border-radius: 20px;
+}
+.card-title1  {
+    color: green;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h4  {
+    font-size: 3rem;
+}
+.card-text {
+    font-size: 1.5rem;
+   font-weight: 600;
+}
+.card-title2 {
+    color: blue;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.card-title3 {
+    color: red;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.card-title4 {
+    color:rgb(22, 2, 22);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.reservation  {
+    margin-top: 8rem;
+    background-color: green;
+    padding: 3rem;
+}
+.reservation p {
+    font-size: 2rem ;
+    color: white;
+    text-align: center;
+    font-family: 'lato';
+}
