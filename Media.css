@@ -1,45 +1,80 @@
-@media screen and (max-width:1015px) {
-    .container-fluid a {
-        font-size: 2.2rem;
-    }
-    nav img {
-        width: 5rem;
-        height: 5rem;
-        padding: 0.2rem;
-    }
-    h1 {
-        font-size: 9.5rem;
-    }
-    h2 {
-        font-size: 4.5rem;
-    }
-    h3  {
-        font-size: 30px;
-    }
-    .paragraphe {
-        font-size: 1.75rem;
+@media screen and (max-width:1200px) {
+    .container-fluid ul li a {
+        font-size: 2rem;
     }
 }
 
-@media screen and (max-width:830px) {
-    .container-fluid a {
+@media screen and (max-width:992px) {
+    .container-fluid ul li a {
         font-size: 2rem;
+        float: left;
+        background-color: lightgrey;
+    }
+    .container-fluid {
+        padding-bottom: 3rem;
+        background-color: lightgrey;
     }
     nav img {
-        width: 4rem;
-        height: 4rem;
+        width: 6rem;
+        height: 6rem;
         padding: 0.2rem;
+        margin-top: 1.5rem;
+      
+       
     }
-    h1  {
-        font-size: 8.5rem;
+      h1, h2  {
+        opacity: 0.33;
+        
     }
-    h2  {
-        font-size: 4rem;
-    }
-    h3  {
-        font-size: 25px;
+      h3  {
+        font-size: 30px;
     }
     .paragraphe {
-        font-size: 1.60rem;
+        font-size: 1.9rem;
+        
     }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 9rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    .paragraphe {
+        font-size: 1.7rem;
+    }
+    .composition img {
+        width: 100%;
+    }
+    .sousTitreEquipes {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .NosEquipes,ul, li {
+         font-size: 2.5rem;
+         width: 100%!important;
+    }
+    .row {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+    .row [class^="col-"]:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 6rem;
+    }
+    .row [class^="col-"] {
+        width: 100%!important;
+        margin-bottom: 45rem;
+    }
+}
+
+@media screen and (max-width:568px) {
+    h1 {
+        font-size: 7rem;
+    }
+   .paragraphe {
+       font-size: 1.4rem;
+   }
 }
