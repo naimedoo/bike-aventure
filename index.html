@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
-    crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Association de randonnée VTT pour tous niveaux, accompagnée de moniteurs professionnels passionnés, expert en VTT 
+    descente et enduro.">
+  <meta name="robots" content="follow">
 
-    <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
-    crossorigin="anonymous">
-    
-    <!--Police de caractère-->
-    <link href="https://fonts.googleapis.com/css2? family= Abril+Fatface & display=swap"
-     rel= "feuille de style">
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!--Police de caractère-->
+  <link href="https://fonts.googleapis.com/css2? family= Abril+Fatface & display=swap" rel="feuille de style">
+  <link href="https : //fonts.googleapis.com/css2? family= Ma+Shan+Zheng & display=swap" rel="stylesheet">
 
 
-    <!--feuille de style-->
-    <link rel="stylesheet" href="style.css">
-    <title>Bike adventure</title>
+  <!--feuille de style-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Media.css">
+  <title>Bike adventure</title>
 </head>
 
 <body>
   <!--Navigation-->
 
   <header id="Accueil">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-          <img src="ressources/bike-aventure-logo-2020-md.png" width="30" height="24" class="d-inline-block align-text-top">
-          </a>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#main-about">Présentation</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#section-equipes">Nos Equipes</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link " href="RandonneeVTT.html" target="_blank">Randonnée VTT</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link " href="#contact"target="_blank">Contact</a>
-          </li>
+        <img src="ressources/bike-aventure-logo-2020-md.png" alt="logo-bike-aventure" width="30" height="24"
+          class="d-inline-block align-text-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#main-about">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-equipes">Nos équipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="RandonneeVTT.html" target="_blank">Randonnée VTT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-wrapper">Contact</a>
+            </li>
           </ul>
         </div>
-        <div class="icon" id="icon">
-
-          <a class="icon" id="icon" onclick="toggleNav()"><i class="far fa-bars"></i></a>
       </div>
     </nav>
-      <h1>La Rando VTT</h1>
-      <h2>Quelque soit votre niveau</h2>
+    <h1>La Rando VTT</h1>
+    <h2>Quelque soit votre niveau</h2>
   </header>
 
   <!-- section about -->
-  
+
   <main id="main-about" class="main-about">
     <div class="titreAbout">
       <h3> Qui sommes nous ? </h3>
-        <p class="paragraphe">
-          Nous sommes une <b>ASSOCIATION LOI DE 1901</b>,constituée dans le but de pratiquer le VTT de Randonnée.
-          <br>Membre de la FFCT, notre association a été constituée le 28 avril 2017 et il est agrée <stong>"Jeunesse et sport."</stong>
-          <br>L'association a pour objectif de pratiquer le VTT et d'encourager le tourisme à VTT pour tout niveau.
-          <br>Elle contribue aussi à la formation des jeunes à partir de 5 ans.  
-        </p>
+      <p class="paragraphe">
+        Nous sommes une <b>ASSOCIATION LOI DE 1901</b>,constituée dans le but de pratiquer le VTT de Randonnée.
+        <br>Membre de la FFCT, notre association a été constituée le 28 avril 2017 et il est agrée <strong>"Jeunesse et
+          sport."</strong>
+        <br>L'association a pour objectif de pratiquer le VTT et d'encourager le tourisme à VTT pour tout niveau.
+        <br>Elle contribue aussi à la formation des jeunes à partir de 5 ans.
+      </p>
     </div>
   </main>
 
   <!--Section Equipes-->
 
-  <section id ="section-equipes" class="section-equipes">
+  <section id="section-equipes" class="section-equipes">
     <div class="equipes">
       <h3>Découvrez notre équipe</h3>
     </div>
@@ -87,93 +92,100 @@
           Nos quatres éducateurs sont diplomés.
         </h4>
         <p class="NosEquipes">
-          <ul>
-            <li>
-              <b>Mickael</b> : Lorem ipsum dolor sit amet,consectetur adipisicing elit.<br>
-              Perferendis, consequuntur. 
-            </li>
-            <li>
-              <b>Sandra</b> : Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              <br> Veniam, excepturi.
-            </li>
-            <li>
-              <b>Aurélie</b> : Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br> Sit, modi.
-            </li>
-            <li>
-              <b>Frédéric</b> : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              <br> Voluptate, magni!
-            </li>
-          </ul>
+        <ul>
+          <li>
+            <b>Mickael</b> : Lorem ipsum dolor sit amet,consectetur adipisicing elit.<br>
+            Perferendis, consequuntur.
+          </li>
+          <li>
+            <b>Sandra</b> : Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            <br> Veniam, excepturi.
+          </li>
+          <li>
+            <b>Aurélie</b> : Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <br> Sit, modi.
+          </li>
+          <li>
+            <b>Frédéric</b> : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br> Voluptate, magni!
+          </li>
+        </ul>
         </p>
       </div>
       <div class="col-1-of-2">
         <div class="composition">
-        <img src="./ressources/vtt-groupe.jpg" alt="vtt-groupe" class="vtt-groupe">
-      </div>
+          <img src="./ressources/vtt-groupe.jpg" alt="vtt-groupe" class="vtt-groupe">
+        </div>
       </div>
     </article>
   </section>
 
   <!--section contact-->
 
-  <aside class="contact-wrapper">
-    <div class="contact"id="contact">
-        <h3>Nous contacter</h3>
-        <p>Posez nous vos questions</p>
-      <div class="form">
-        <div class="row">
-          <div class="col">
-            <label for="name"class="form-label">Nom:</label>
-            <input type="text"class="form-control"id="name"placeholder="Nom">
-          </div>
-          <div class="col">
-            <label for="firstname"class="form-label">Prénom:</label>
-            <input type="text"class="form-control"id="Firstname"placeholder="Prénom">
-          </div>
-        </div>
-          <div class="message">
-            <label for="message"class="form-label">Message :</label>
-            <textarea rows="5" class="form-control"id="message" placeholder="Saisissez votre message">
-            </textarea>
-          </div>
-          <button class="btn btn-primary">envoyer</button>
+  <aside id="contact-wrapper">
+    <h3>Nous contacter</h3>
+    <p><i>Si vous souhaitez avoir plus d'informations, n'hésitez pas à nous contacter via le formulaire<br>
+        ou par téléphone</i></p>
+    <div class="row">
+      <div class="col">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" class="form-control" placeholder="Nom" aria-label="name">
+      </div>
+      <div class="col">
+        <label for="firstname" class="form-label">Prénom</label>
+        <input type="text" class="form-control" placeholder="Prénom" aria-label="Firstname">
       </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <label for="colFormLabel" class="form-label">Email</label>
+        <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+      </div>
+    </div>
+    <div class="message">
+      <label for="message" class="form-label">Votre message :</label>
+      <textarea rows="5" class="form-control" id="message" placeholder="Saisissez votre message" aria-label="message">
+          </textarea>
+    </div>
+    <button class="btn btn-primary">envoyer</button>
+
   </aside>
 
- 
 
-  <!--footer--> 
+
+  <!--footer-->
 
   <footer>
     <div class="social">
-        <p>Retrouvez nous sur les réseaux sociaux</p>
+      <p>Retrouvez nous sur les réseaux sociaux</p>
       <div class="flexMedias">
-        <a href="#"target="_blank">
-         <i class="fab fa-instagram"></i>
+        <a href="#" target="_blank">
+          <i class="fab fa-instagram"></i>
         </a>
-        <a href="#"target="_blank">
-        <i class="fab fa-twitter"></i>
-        <a href="#"target="_blank">
-        <i class="fab fa-facebook-f"></i>
-        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-twitter"></i>
+          <a href="#" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+      </div>
+      <div class="retourPage">
+        <a href="index.html">Retour en haut de page</a>
+      </div>
+      <div class="copyright">
+        <p><i>Tous droit réservés</i>
+          &copy Bike aventure
+        </p>
       </div>
     </div>
   </footer>
-  
-  
-    
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
-     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-     integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" 
-     crossorigin="anonymous"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
