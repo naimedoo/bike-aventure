@@ -7,44 +7,40 @@ body  {
     background-color: white;
 }
 .container-fluid {
-    background-color: rgb(187, 187, 15);
+    background-color: lightgrey;
+    border-bottom: 1px solid black;
 }
 
-
-/*#navigation*/ nav { 
-    position: fixed;
-    z-index: 40;
-    /*background-color: rgb(187, 187, 15);*/
+ nav { 
     text-align: center;
-    height: 7rem;
-    transition: all 0.4s ease ease-in-out;
-    width: 100%;
+    height: 6.5rem;
+   
 } 
 
 nav img {
     float: left;
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     padding: 0.5rem;
     margin:auto;
     
 }
 
-/*#navigation*/ .container-fluid a{
+.container-fluid ul li a {
+   
+    
     text-decoration: none;
-    font-size: 3rem;
-    padding: 1rem 2rem;
-    line-height: 6.5rem;
-    font-family: "lato","sans-serif";
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 1rem 6rem;
+    line-height: 5.5rem;
+    font-family:"Abril fatface";
     margin: auto;
-    color:black;
+    color:rgb(61, 25, 25);
 }
 
-.icon  {
-    display: none;
-}
 
-/*Header Accueil */
+/*----------------------Header Accueil------------------ */
 
 header  {
    height: 100vh;
@@ -52,7 +48,9 @@ header  {
    background-image: url("ressources/photo-header.jpg");
    background-size: cover;
    background-position: center;
+   
 }
+
 
 h1  {
     text-align: center;
@@ -74,9 +72,32 @@ h2 {
     font-size: 5rem;
     letter-spacing: 0.2rem;
 }
-.section-about  {
+
+/* section-about*/
+
+.main-about  {
     background-color:white;
     padding-bottom: 10rem;
+    padding: 2rem;
+}
+.titreAbout  {
+    font-size: 2rem;
+    border: 2px solid black;
+    text-align: center;
+    background-color: beige;
+    margin-top: 10rem;
+    border-radius: 50% 10% / 10% 40%;
+    
+}
+.paragraphe {
+    font-size: 2.1rem;
+}
+
+/*---------------------- section equipe-------------------------------- */
+
+.equipes  {
+    border-top: 7px dashed rgba(190, 209, 17, 0.4);
+    margin-top: 6.5rem;
 }
 h3 {
     text-align: center;
@@ -90,16 +111,6 @@ h3 {
     letter-spacing: 0.2rem;
     padding-top:5rem;
     text-transform: uppercase;
-}
-
-.titreAbout  {
-    font-size: 2rem;
-    border: 2px solid black;
-    text-align: center;
-    background-color: beige;
-    margin-top: 10rem;
-    border-radius: 50% 10% / 10% 40%;
-    
 }
 .paragraphe  {
     padding-bottom: 5rem;
@@ -116,4 +127,95 @@ h3 {
 }
 .NosEquipes,ul, li {
     font-size: 1.9rem;
+} 
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
 }
+.row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+}
+.composition  {
+    position: relative;
+}
+.vtt-groupe  {
+    width: 85%;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+    border-radius: 2px;
+    position: absolute;
+}
+.NosEquipes  {
+    margin-top: 2rem;
+}
+
+
+/*------------------ section contact---------------------------*/
+
+#contact-wrapper  {
+    border-top: 7px dashed rgba(190, 209, 17, 0.4);
+    margin-top: 6rem;
+}
+#contact-wrapper h3 {
+    margin-top: 4rem;
+}
+#contact-wrapper p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "lato","sans-serif";
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+.form-label {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.form-control {
+    padding: 1.5rem;
+    border: 1px solid black;
+}
+
+.btn {
+   font-size: 1.5rem;
+   margin-top: 1.5rem;
+   text-transform: uppercase;
+   
+}
+
+/*----------------- footer------------------------ */
+
+.social  {
+    background-color: black;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+
+.social p {
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    font-family: "lato", "sans-serif";
+}
+.flexMedias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.8rem;
+    font-size: 3rem;
+}
+
+.flexMedias a {
+    color: white;
+}
+
+.retourPage {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.retourPage a {
+    color: white;
+}
+.copyright {
+    float: right;
+}
+
