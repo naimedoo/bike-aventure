@@ -2,16 +2,49 @@ html  {
     font-size: 10px;
 }
 body  {
-    background-color:white;
+    background-color:whitesmoke;
 }
 
-/*section equipe */
+.container-fluid {
+    background-color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+
+nav { 
+    position: fixed;
+    height: 6.5rem;
+} 
+
+nav img {
+    float: left;
+    width: 6rem;
+    height: 6rem;
+    padding: 0.5rem;
+    margin:auto;
+    
+}
+
+ .container-fluid ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    line-height: 5.5rem;
+    font-family: "lato","sans-serif";
+    margin: auto;
+    color: black;
+}
+
+
+
+/*---------------------------section equipe -----------------------------*/
 
 #equipes  {
     height: 10rem;
     width: 100%;
 }
-  #equipes h3  {
+#equipes h3  {
      text-align: center;
      font-size: 5.5rem;
      padding-top: 3rem;
@@ -56,30 +89,137 @@ h4  {
     font-size: 1.5rem;
    font-weight: 600;
 }
+.prix {
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    width:10%;
+    height: 10%;
+    background-color: chartreuse;
+    float: right;
+}
+.montant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-weight: 700;
+}
 .card-title2 {
     color: blue;
     font-size: 2rem;
     text-transform: uppercase;
+}
+.prix2 {
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    width:10%;
+    height: 10%;
+    background-color: rgba(26, 119, 206, 0.678);
+    float: right;
+}
+.montant2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-weight: 700;
 }
 .card-title3 {
     color: red;
     font-size: 2rem;
     text-transform: uppercase;
 }
+.prix3 {
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    width:10%;
+    height: 10%;
+    background-color: red;
+    float: right;
+}
+.montant3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-weight: 700;
+}
+
 .card-title4 {
     color:rgb(22, 2, 22);
     font-size: 2rem;
     text-transform: uppercase;
 }
+.prix4 {
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    width:10%;
+    height: 10%;
+    background-color: yellow;
+    float: right;
+}
+.montant4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-weight: 700;
+}
+.btn {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
 
 .reservation  {
     margin-top: 8rem;
-    background-color: green;
+    background-color: lightgreen;
     padding: 3rem;
 }
 .reservation p {
     font-size: 2rem ;
-    color: white;
+    color: black;
     text-align: center;
-    font-family: 'lato';
+    font-family: 'Abril fatface';
+}
+
+/* footer */
+
+.social  {
+    background-color: black;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+.social p {
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    font-family: "lato", "sans-serif";
+}
+.flexMedias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.8rem;
+    font-size: 3rem;
+}
+
+.flexMedias a {
+    color: white;
+}
+
+.retourPage {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.retourPage a {
+    color: white;
+}
+.copyright {
+    float: right;
+    
 }
